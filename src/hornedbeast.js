@@ -20,7 +20,7 @@ class HornedBeast extends React.Component {
           <Card className='hornedbeast' onClick={this.favoriteClicks}>
             <Card.Body className='card-body'>
               <Card.Title>Horned Beast Name: {this.props.title}</Card.Title>
-              <Card.Img className="profile-photo" variant="top"  src={this.props.imageUrl} alt={this.props.description} />
+              <Card.Img onClick={() => this.props.setSelectBeast(this.props.beast)} className="profile-photo" variant="top"  src={this.props.imageUrl} alt={this.props.description} />
               <Card.Text>Description: {this.props.description}</Card.Text>
             </Card.Body>
             <Card.Footer>
