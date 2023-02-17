@@ -1,0 +1,38 @@
+/* .container{
+    border: 2px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    border: 2px solid black;
+}
+
+
+.hornedbeast {
+    border: 2px solid purple;
+    width: 25%;
+    min-height: 375px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 300px;
+}
+
+.profile-photo{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
